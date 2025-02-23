@@ -43,11 +43,20 @@ The Resume Keyword Extractor allows users to upload a PDF resume and enter a job
    git clone https://github.com/yourusername/resume-keyword-extractor.git
    cd resume-keyword-extractor
 
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Download NLTK Data In a Python shell, run:**
+   ```python
+   import nltk
+   nltk.download('stopwords')
+
+
 ## Usage
 1. **Run the App**
    ```bash
    streamlit run app.py
-
 
 ## Demo
 A live demo of the application is available on Streamlit Cloud.
