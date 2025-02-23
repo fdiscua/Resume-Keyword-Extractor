@@ -42,3 +42,27 @@ The Resume Keyword Extractor allows users to upload a PDF resume and enter a job
    ```bash
    git clone https://github.com/yourusername/resume-keyword-extractor.git
    cd resume-keyword-extractor
+
+## Usage
+1. **Run the App**
+   ```bash
+   streamlit run app.py
+
+
+## Demo
+A live demo of the application is available on Streamlit Cloud.
+
+Below is a screenshot of the web interface:
+
+![image](https://github.com/user-attachments/assets/db5c499e-4524-4635-b3a7-fbd01d5b029a)
+
+
+## Future Enhancements
+- **Highlight Matching Keywords**: Visually highlight the matching keywords within the resume text.
+- **Advanced NLP Models**: Integrate transformer-based models (e.g., BERT) for more accurate keyword extraction.
+- **Batch Processing**: Enable the processing of multiple resumes at once and rank them.
+- **API Integration**: Develop a RESTful API using Flask or FastAPI to support batch resume screening.
+- **Enhanced User Interface**: Improve the UI/UX for a more polished look and additional interactivity.
+
+## License
+This project is licensed under the MIT License.
